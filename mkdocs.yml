@@ -1,1 +1,56 @@
-site_name: My Docs
+site_name: ES6/TypeScript 核心知识库
+site_description: 记录ES6和TypeScript的核心知识点，包含代码示例和最佳实践
+site_author: smallzh
+
+theme:
+  name: smzhbook
+
+nav:
+  - 首页: index.md
+  - ES6:
+    - ES6概述: es6/overview.md
+    - 基础:
+      - 变量声明(let/const): es6/basics/variables.md
+      - 箭头函数: es6/basics/arrow-functions.md
+      - 模板字符串: es6/basics/template-literals.md
+      - 解构赋值: es6/basics/destructuring.md
+      - 默认参数: es6/basics/default-parameters.md
+      - 展开运算符和剩余参数: es6/basics/spread-rest.md
+      - 对象字面量增强: es6/basics/object-literals.md
+    - 常用:
+      - 数组新方法: es6/common/array-methods.md
+      - 对象新方法: es6/common/object-methods.md
+      - 字符串新方法: es6/common/string-methods.md
+      - Promise: es6/common/promise.md
+      - 类(Class): es6/common/class.md
+      - 模块(import/export): es6/common/modules.md
+    - 进阶:
+      - Symbol: es6/advanced/symbol.md
+      - 迭代器和生成器: es6/advanced/iterators-generators.md
+      - Set和Map: es6/advanced/set-map.md
+      - Proxy和Reflect: es6/advanced/proxy-reflect.md
+  - TypeScript:
+    - TypeScript概述: typescript/overview.md
+    - 基础:
+      - 类型基础: typescript/basics/type-basics.md
+      - 基本类型: typescript/basics/basic-types.md
+      - 数组和元组: typescript/basics/array-tuple.md
+      - 枚举(Enum): typescript/basics/enum.md
+      - 接口(Interface): typescript/basics/interface.md
+      - 类型别名(Type Alias): typescript/basics/type-alias.md
+      - 函数类型: typescript/basics/function-types.md
+    - 常用:
+      - 类(Class): typescript/common/class.md
+      - 泛型(Generics): typescript/common/generics.md
+      - 类型断言: typescript/common/type-assertion.md
+      - 类型守卫: typescript/common/type-guards.md
+      - 联合类型和交叉类型: typescript/common/union-intersection.md
+    - 进阶:
+      - 索引类型: typescript/advanced/index-types.md
+      - 映射类型: typescript/advanced/mapped-types.md
+      - 条件类型: typescript/advanced/conditional-types.md
+      - 装饰器(Decorators): typescript/advanced/decorators.md
+      - 高级类型技巧: typescript/advanced/advanced-types.md
+
+plugins:
+  - search
