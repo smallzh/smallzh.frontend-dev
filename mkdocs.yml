@@ -51,6 +51,17 @@ nav:
       - 条件类型: typescript/advanced/conditional-types.md
       - 装饰器(Decorators): typescript/advanced/decorators.md
       - 高级类型技巧: typescript/advanced/advanced-types.md
+  - React:
+    - React概述: react/overview.md
+    - 基础:
+      - 组件与Props: react/basics/components.md
+    - Hooks:
+      - 核心Hook: react/hooks/core-hooks.md
+      - 状态管理: react/hooks/state-management.md
+      - API交互: react/hooks/api-usage.md
+    - 新特性:
+      - React 19新特性: react/new-features/react19.md
 
 plugins:
   - search
+  - mermaid2
