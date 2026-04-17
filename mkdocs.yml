@@ -7,6 +7,51 @@ theme:
 
 nav:
   - 首页: index.md
+  - React:
+      - React概述: react/overview.md
+      - 基础:
+          - 组件与Props: react/basics/components.md
+          - React Router: react/router.md
+      - Hooks:
+          - 核心Hook: react/hooks/core-hooks.md
+          - 状态管理: react/hooks/state-management.md
+          - API交互: react/hooks/api-usage.md
+      - 新特性:
+          - React 19新特性: react/new-features/react19.md
+  - Tailwind CSS:
+      - Tailwind CSS概述: tailwind/overview.md
+      - 基础:
+          - 安装与配置: tailwind/basics/installation.md
+          - 核心概念: tailwind/basics/core-concepts.md
+          - 常用工具类: tailwind/basics/utility-classes.md
+          - 响应式设计: tailwind/basics/responsive-design.md
+      - 进阶:
+          - 原理深度解析: tailwind/advanced/principles.md
+          - 自定义配置: tailwind/advanced/customization.md
+          - 状态变体: tailwind/advanced/state-variants.md
+          - 常用组件示例: tailwind/advanced/components.md
+  - TypeScript:
+      - TypeScript概述: typescript/overview.md
+      - 基础:
+          - 类型基础: typescript/basics/type-basics.md
+          - 基本类型: typescript/basics/basic-types.md
+          - 数组和元组: typescript/basics/array-tuple.md
+          - 枚举(Enum): typescript/basics/enum.md
+          - 接口(Interface): typescript/basics/interface.md
+          - 类型别名(Type Alias): typescript/basics/type-alias.md
+          - 函数类型: typescript/basics/function-types.md
+      - 常用:
+          - 类(Class): typescript/common/class.md
+          - 泛型(Generics): typescript/common/generics.md
+          - 类型断言: typescript/common/type-assertion.md
+          - 类型守卫: typescript/common/type-guards.md
+          - 联合类型和交叉类型: typescript/common/union-intersection.md
+      - 进阶:
+          - 索引类型: typescript/advanced/index-types.md
+          - 映射类型: typescript/advanced/mapped-types.md
+          - 条件类型: typescript/advanced/conditional-types.md
+          - 装饰器(Decorators): typescript/advanced/decorators.md
+          - 高级类型技巧: typescript/advanced/advanced-types.md
   - ES6:
     - ES6概述: es6/overview.md
     - 基础:
@@ -29,51 +74,6 @@ nav:
       - 迭代器和生成器: es6/advanced/iterators-generators.md
       - Set和Map: es6/advanced/set-map.md
       - Proxy和Reflect: es6/advanced/proxy-reflect.md
-  - TypeScript:
-    - TypeScript概述: typescript/overview.md
-    - 基础:
-      - 类型基础: typescript/basics/type-basics.md
-      - 基本类型: typescript/basics/basic-types.md
-      - 数组和元组: typescript/basics/array-tuple.md
-      - 枚举(Enum): typescript/basics/enum.md
-      - 接口(Interface): typescript/basics/interface.md
-      - 类型别名(Type Alias): typescript/basics/type-alias.md
-      - 函数类型: typescript/basics/function-types.md
-    - 常用:
-      - 类(Class): typescript/common/class.md
-      - 泛型(Generics): typescript/common/generics.md
-      - 类型断言: typescript/common/type-assertion.md
-      - 类型守卫: typescript/common/type-guards.md
-      - 联合类型和交叉类型: typescript/common/union-intersection.md
-    - 进阶:
-      - 索引类型: typescript/advanced/index-types.md
-      - 映射类型: typescript/advanced/mapped-types.md
-      - 条件类型: typescript/advanced/conditional-types.md
-      - 装饰器(Decorators): typescript/advanced/decorators.md
-      - 高级类型技巧: typescript/advanced/advanced-types.md
-  - React:
-    - React概述: react/overview.md
-    - 基础:
-      - 组件与Props: react/basics/components.md
-      - React Router: react/router.md
-    - Hooks:
-      - 核心Hook: react/hooks/core-hooks.md
-      - 状态管理: react/hooks/state-management.md
-      - API交互: react/hooks/api-usage.md
-    - 新特性:
-      - React 19新特性: react/new-features/react19.md
-  - Tailwind CSS:
-    - Tailwind CSS概述: tailwind/overview.md
-    - 基础:
-      - 安装与配置: tailwind/basics/installation.md
-      - 核心概念: tailwind/basics/core-concepts.md
-      - 常用工具类: tailwind/basics/utility-classes.md
-      - 响应式设计: tailwind/basics/responsive-design.md
-    - 进阶:
-      - 原理深度解析: tailwind/advanced/principles.md
-      - 自定义配置: tailwind/advanced/customization.md
-      - 状态变体: tailwind/advanced/state-variants.md
-      - 常用组件示例: tailwind/advanced/components.md
 
 plugins:
   - search
